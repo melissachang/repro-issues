@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "jest-environment-node": "^22.0.0",
+    "jest-puppeteer": "^2.3.0",
+    "puppeteer": "^1.3.0"
+  },
+  "jest": {
+    "projects": [
+      {
+        "displayName": "unit",
+        "testMatch": [
+          "<rootDir>/tests/unit/*.test.js"
+        ]
+      },
+      {
+        "displayName": "e2e",
+        "preset": "jest-puppeteer",
+        "testMatch": [
+          "<rootDir>/tests/e2e/*.js"
+        ]
+      }
+    ]
+  }
+}
