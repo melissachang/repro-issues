@@ -1,1 +1,40 @@
+*.py[cod]
+*$py.class
+build/
+dist/
+
+*.settings
+client_secrets.json
+swagger-codegen-cli.jar
+config.json
+
+.venv
+venv/
+.tox/
+*.egg-info
+
+# compiled output
+/ui/dist
+/ui/tmp
+/ui/out-tsc
+
+# dependencies
 **/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.iml
+.idea/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
