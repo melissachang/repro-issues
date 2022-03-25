@@ -9,4 +9,7 @@ jobs:
     steps:
 
     - name: Sleep
-      run: sleep 100000000
+      run: |
+        echo "Before sleep"
+        sleep 100000
+        echo "After sleep"
