@@ -1,0 +1,12 @@
+name: Repro https://github.com/nektos/act/issues/1072
+on:
+  workflow_dispatch:
+
+jobs:
+  sleep:
+    name: Sleep
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Sleep
+      run: sleep 1
