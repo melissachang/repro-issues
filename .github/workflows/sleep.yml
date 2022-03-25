@@ -9,4 +9,4 @@ jobs:
     steps:
 
     - name: Sleep
-      run: sleep 1
+      run: sleep 100000000
